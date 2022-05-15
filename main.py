@@ -3,9 +3,9 @@ import requests
 import matplotlib.pyplot as plt
 import IPython.display as dp
 
-#Display the image from the web using an URI.
+
 img="C:\\Users\\Megha\\Documents\\Gender_Age_Detection\\OpenCV\\download.jpg"
-#dp.Image(requests.get(img).content)
+
 
 #Read the image using imgaeio package's imread method and URI from web using
 source_img = imageio.imread(img)
